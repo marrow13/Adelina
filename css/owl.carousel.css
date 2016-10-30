@@ -1,0 +1,162 @@
+#owl {
+    overflow: hidden;
+    z-index: 1;
+
+    position: relative;
+    padding-top: 20px;
+    margin: 0 0px 21px;
+    padding-bottom: 29px;
+}
+
+
+
+#owl .owl-item {
+    float: left;
+    width: 100%;
+}
+
+#owl .item {
+    position: relative;
+    text-align: left;
+}
+
+.owl-wrapper-outer {
+    overflow: hidden;
+}
+
+
+#owl .owl-prev, #owl .owl-next {
+    cursor: pointer;
+    position: absolute;
+    background: url(../images/prevnext.png) 0 0 no-repeat;
+    display: block;
+    height: 19px;
+    right: 19px;
+    bottom: 0;
+    width: 13px;
+    overflow: hidden;
+    text-indent: -999px;
+
+}
+
+#owl .owl-next {
+    right: 0px;
+    background-position: right bottom;
+
+}
+#owl .owl-next:hover {
+    background-position: right 0;
+}
+
+
+
+#owl .owl-prev:hover {
+    background-position: 0 bottom;
+}
+
+
+
+
+
+/* Owl content */
+
+
+
+.owl-carousel .owl-wrapper{
+    display: none;
+    position: relative;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -webkit-perspective: 1000;
+}
+
+
+/*2nd*/
+#owl1 {
+    overflow: hidden;
+    z-index: 1;
+
+    position: relative;
+    margin: 0 -10px 0;
+    padding-top: 19px;
+    padding-bottom: 32px;
+}
+
+#owl1 a:hover{
+    color: #d5cec6;
+}
+
+#owl1 a {
+    position: relative;
+    top: -4px;
+}
+
+#owl1 .owl-item {
+    float: left;
+    width: 100%;
+}
+
+#owl1 .item {
+    color: #d5cec6;
+    padding: 0 10px;
+    position: relative;
+    text-align: left;
+}
+
+#owl1 .item>div {
+    transition: background-color 0.5s ease;
+    -o-transition: background-color 0.5s ease;
+    -webkit-transition: background-color 0.5s ease;
+    padding-bottom: 59px;
+    position: relative;
+}
+
+
+#owl1 .item>div:hover {
+    background-color: #ce1d00;
+}
+
+#owl1 .item time {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ce1d00;
+    font: 36px/36px 'Bevan', cursive;
+    text-transform: uppercase;
+    display: block;
+    padding:  3px 0 4px 8px;
+}
+
+.owl-wrapper-outer {
+    overflow: hidden;
+}
+
+
+#owl1 .owl-prev, #owl1 .owl-next {
+    cursor: pointer;
+    position: absolute;
+    background: url(../images/prevnext1.png) 0 0 no-repeat;
+    display: block;
+    height: 19px;
+    right: 31px;
+    bottom: 0;
+    width: 13px;
+    overflow: hidden;
+    text-indent: -999px;
+
+}
+
+#owl1 .owl-next {
+    right: 10px;
+    background-position: right bottom;
+
+}
+#owl1 .owl-next:hover {
+    background-position: right 0;
+}
+
+
+
+#owl1 .owl-prev:hover {
+    background-position: 0 bottom;
+}
